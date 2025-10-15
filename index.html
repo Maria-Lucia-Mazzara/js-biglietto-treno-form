@@ -19,36 +19,36 @@
         </h1>
     </header>
     <main class="container">
-        <form id="Informazioni_viaggio">
+        <form id="informazioni_viaggio">
             <div class="row">
-                <div class="col-4 fs-3 name">
+                <div class="col-4 fs-3">
                     <label class="form-label fw-medium">
                         Nome cognome
                     </label>
-                    <input type="text" class="form-control" placeholder="inserire il tuo nome e cognome">
+                    <input type="text" class="form-control name" placeholder="inserire il tuo nome e cognome">
                 </div>
-                <div class="col-4 fs-3 km_fare">
+                <div class="col-4 fs-3 ">
                     <label class="form-label fw-medium">
                         Km da fare
                     </label>
-                    <input type="number" class="form-control" placeholder="km da percorrere">
+                    <input type="number" class="form-control km_fare" placeholder="km da percorrere">
                 </div>
-                <div class="col-4 fascia_eta">
-                    <label for="disabledSelect" class="form-label fs-3">
+                <div class="col-4">
+                    <label  class="form-label fs-3">
                         Fascia d'età
                     </label>
-                    <select id="disabledSelect" class="form-select">
+                    <select class="form-select fascia_eta">
                         <option value="standard">Standard</option>
                         <option value="minorenne">Minorenni</option>
-                        <option value="over65">Over 65</option>
+                        <option value="over65">Over_65</option>
                     </select>
                 </div>
             </div>
             <div class="m-5 text-center">
-                <button type="button" class="btn btn-outline-danger">
+                <button type="submit" class="btn btn-outline-danger">
                     Genera
                 </button>
-                <button type="button" class="btn btn-outline-danger">
+                <button type="reset" class="btn btn-outline-danger">
                     Annulla
                 </button>
             </div>
