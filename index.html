@@ -19,8 +19,8 @@
         </h1>
     </header>
     <main class="container">
-        <div class="row">
-            <form id="Informazioni_viaggio">
+        <form id="Informazioni_viaggio">
+            <div class="row">
                 <div class="col-4 fs-3 name">
                     <label class="form-label fw-medium">
                         Nome cognome
@@ -38,15 +38,23 @@
                         Fascia d'età
                     </label>
                     <select id="disabledSelect" class="form-select">
-                        <option>Minorenni</option>
-                        <option>Over 65</option>
-                        <option>standard</option>
-
+                        <option value="standard">Standard</option>
+                        <option value="minorenne">Minorenni</option>
+                        <option value="over65">Over 65</option>
                     </select>
                 </div>
-            </form>
+            </div>
+            <div class="m-5 text-center">
+                <button type="button" class="btn btn-outline-danger">
+                    Genera
+                </button>
+                <button type="button" class="btn btn-outline-danger">
+                    Annulla
+                </button>
+            </div>
 
-        </div>
+        </form>
+
 
 
 
